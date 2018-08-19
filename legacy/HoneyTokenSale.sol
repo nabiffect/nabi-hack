@@ -1,4 +1,4 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.4.21;
 
 import './HoneyToken.sol';
 import './HoneyTokenAirdrop.sol';

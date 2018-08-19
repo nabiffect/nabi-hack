@@ -1,11 +1,18 @@
 <template>
-  <div class='metamask-info'>
-    <p v-if="isInjected" id="has-metamask"><i aria-hidden="true" class="fa fa-check"></i> Metamask installed</p>
-    <p v-else id="no-metamask"><i aria-hidden="true" class="fa fa-times"></i> Metamask not found</p>
-    <p>Network: {{ network }}</p>
-	<p>Account: {{ coinbase }}</p>
-	<p>Balance: {{ balance }} Wei </p>
- </div>
+  <div>
+    <b-btn v-b-toggle.collapse1 variant="primary">Metamask Status</b-btn>
+    <b-collapse id="collapse1" class="mt-2">
+      <b-card>
+      <div class='metamask-info'>
+        <p v-if="isInjected" id="has-metamask"><i aria-hidden="true" class="fa fa-check"></i> Metamask installed</p>
+        <p v-else id="no-metamask"><i aria-hidden="true" class="fa fa-times"></i> Metamask not found</p>
+        <p>Network: {{ network }}</p>
+    	<p>Account: {{ coinbase }}</p>
+    	<p>Balance: {{ balance }} Wei </p>
+     </div>
+    </b-card>
+    </b-collapse>
+  </div>
 </template>
 
 <script>

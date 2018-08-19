@@ -21,7 +21,8 @@
     "truffle-contract": "^3.0.0",
     "vue": "^2.4.2",
     "vue-router": "^2.7.0",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "zeppelin-solidity": "1.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -130,5 +131,19 @@
         ]
       }
     }
-  }
+  },
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabiffect/nabi-hack.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nabiffect/nabi-hack/issues"
+  },
+  "homepage": "https://github.com/nabiffect/nabi-hack#readme"
 }

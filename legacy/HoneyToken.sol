@@ -1,6 +1,6 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.4.21;
 
-import 'openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
+import 'zeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
 
 contract HoneyToken is StandardToken {
     uint public INITIAL_SUPPLY = 2500000;

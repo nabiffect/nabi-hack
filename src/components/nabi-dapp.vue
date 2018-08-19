@@ -7,7 +7,7 @@
 
 <script>
   import InfoMetamask from '@/components/info-metamask'
-  import NabiComponent from '@/components/nabi-component'
+  import NabiComponent from '@/components/FriendList'
   export default {
   	name: 'nabi-dapp',
   	beforeCreate() {

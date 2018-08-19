@@ -8,32 +8,32 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820ce5a8c68cc96bec5309d63c58e375ff82afe398e8f209e8a28b4b68663c555640029",
-  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820ce5a8c68cc96bec5309d63c58e375ff82afe398e8f209e8a28b4b68663c555640029",
-  "sourceMap": "26:74:4:-;;;53:45;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:45:4;26:74;;;;;;",
-  "deployedSourceMap": "26:74:4:-;;;;;",
-  "source": "pragma solidity ^0.4.15;\n\ncontract Nabieffect {\n\n    function Nabieffect() public {\n        \n    }\n}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820af284d8874a38b0b56cc9f82cb12e883989b1600e0194af9edfcb13a30c2f6780029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820af284d8874a38b0b56cc9f82cb12e883989b1600e0194af9edfcb13a30c2f6780029",
+  "sourceMap": "26:74:1:-;;;53:45;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:45:1;26:74;;;;;;",
+  "deployedSourceMap": "26:74:1:-;;;;;",
+  "source": "pragma solidity ^0.4.21;\n\ncontract Nabieffect {\n\n    function Nabieffect() public {\n        \n    }\n}",
   "sourcePath": "/Users/willpark/Desktop/hackathon/nabieffect/nabi-hack/contracts/Nabieffect.sol",
   "ast": {
     "absolutePath": "/Users/willpark/Desktop/hackathon/nabieffect/nabi-hack/contracts/Nabieffect.sol",
     "exportedSymbols": {
       "Nabieffect": [
-        295
+        177
       ]
     },
-    "id": 296,
+    "id": 178,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 290,
+        "id": 172,
         "literals": [
           "solidity",
           "^",
           "0.4",
-          ".15"
+          ".21"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -41,22 +41,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 295,
+        "id": 177,
         "linearizedBaseContracts": [
-          295
+          177
         ],
         "name": "Nabieffect",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 293,
+              "id": 175,
               "nodeType": "Block",
-              "src": "82:16:4",
+              "src": "82:16:1",
               "statements": []
             },
             "documentation": null,
-            "id": 294,
+            "id": 176,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -64,51 +64,51 @@
             "name": "Nabieffect",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 291,
+              "id": 173,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "72:2:4"
+              "src": "72:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 292,
+              "id": 174,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "82:0:4"
+              "src": "82:0:1"
             },
-            "scope": 295,
-            "src": "53:45:4",
+            "scope": 177,
+            "src": "53:45:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 296,
-        "src": "26:74:4"
+        "scope": 178,
+        "src": "26:74:1"
       }
     ],
-    "src": "0:100:4"
+    "src": "0:100:1"
   },
   "legacyAST": {
     "absolutePath": "/Users/willpark/Desktop/hackathon/nabieffect/nabi-hack/contracts/Nabieffect.sol",
     "exportedSymbols": {
       "Nabieffect": [
-        295
+        177
       ]
     },
-    "id": 296,
+    "id": 178,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 290,
+        "id": 172,
         "literals": [
           "solidity",
           "^",
           "0.4",
-          ".15"
+          ".21"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:1"
       },
       {
         "baseContracts": [],
@@ -116,22 +116,22 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 295,
+        "id": 177,
         "linearizedBaseContracts": [
-          295
+          177
         ],
         "name": "Nabieffect",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 293,
+              "id": 175,
               "nodeType": "Block",
-              "src": "82:16:4",
+              "src": "82:16:1",
               "statements": []
             },
             "documentation": null,
-            "id": 294,
+            "id": 176,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -139,36 +139,36 @@
             "name": "Nabieffect",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 291,
+              "id": 173,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "72:2:4"
+              "src": "72:2:1"
             },
             "payable": false,
             "returnParameters": {
-              "id": 292,
+              "id": 174,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "82:0:4"
+              "src": "82:0:1"
             },
-            "scope": 295,
-            "src": "53:45:4",
+            "scope": 177,
+            "src": "53:45:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 296,
-        "src": "26:74:4"
+        "scope": 178,
+        "src": "26:74:1"
       }
     ],
-    "src": "0:100:4"
+    "src": "0:100:1"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+    "version": "0.4.23+commit.124ca40d.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-10T16:13:55.366Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-08-18T14:01:55.717Z"
 }
